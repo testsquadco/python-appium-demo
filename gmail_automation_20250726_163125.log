@@ -1,0 +1,8 @@
+[2025-07-26 16:31:25,785] INFO: === Starting Gmail Automation ===
+[2025-07-26 16:31:25,837] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:31:25,837] INFO: Starting Appium server on localhost:4723...
+[2025-07-26 16:31:25,857] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:31:27,864] ERROR: Appium server failed to start. Error: [38;5;86m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+[38;5;112m[Appium][0m Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+
+[2025-07-26 16:31:27,865] INFO: No Appium server process to stop

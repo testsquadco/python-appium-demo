@@ -1,0 +1,34 @@
+[2025-07-26 16:38:07,219] INFO: === Starting Gmail Automation ===
+[2025-07-26 16:38:07,273] INFO: Appium server is running on localhost:4723 (detected via http://localhost:4723/status)
+[2025-07-26 16:38:07,273] INFO: Connecting to Android device...
+[2025-07-26 16:38:10,520] INFO: [16:38:10.520] Successfully connected to device (took 3.25s)
+[2025-07-26 16:38:10,521] INFO: Launching Gmail app...
+[2025-07-26 16:38:10,521] INFO: Starting activity: com.google.android.gm/com.google.android.gm.ConversationListActivityGmail
+[2025-07-26 16:38:10,521] WARNING: start_activity failed: 'WebDriver' object has no attribute 'start_activity'
+[2025-07-26 16:38:10,521] INFO: Trying to launch Gmail via ADB command...
+[2025-07-26 16:38:10,573] WARNING: ADB launch failed: Message: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'adb_shell' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at http://appium.io/docs/en/latest/guides/security/
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'adb_shell' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at http://appium.io/docs/en/latest/guides/security/
+    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1143:9)
+    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:487:57)
+[2025-07-26 16:38:10,573] INFO: Trying to activate Gmail app...
+[2025-07-26 16:38:10,682] INFO: Waiting 3.67s for human-like behavior
+[2025-07-26 16:38:14,356] INFO: Verifying Gmail app is launched...
+[2025-07-26 16:38:14,502] INFO: Current package: com.google.android.gm
+[2025-07-26 16:38:14,502] INFO: Current activity: .welcome.WelcomeTourActivity
+[2025-07-26 16:38:14,502] INFO: Gmail package is active
+[2025-07-26 16:38:14,503] INFO: [16:38:14.503] Gmail app launched and verified successfully (took 3.98s)
+[2025-07-26 16:38:14,503] INFO: Looking for sign-in button...
+[2025-07-26 16:38:14,503] INFO: Waiting 3.24s for human-like behavior
+[2025-07-26 16:38:18,083] INFO: No sign-in button found, checking if already signed in or in email input...
+[2025-07-26 16:38:18,084] INFO: Looking for email input field...
+[2025-07-26 16:38:23,261] WARNING: Element not found: ('xpath', "//android.widget.EditText[contains(@hint, 'Email')]")
+[2025-07-26 16:38:28,334] WARNING: Element not found: ('xpath', "//android.widget.EditText[contains(@hint, 'email')]")
+[2025-07-26 16:38:33,359] WARNING: Element not found: ('xpath', "//android.widget.EditText[contains(@text, 'Email')]")
+[2025-07-26 16:38:38,597] WARNING: Element not found: ('xpath', "//android.widget.EditText[@resource-id='identifierId']")
+[2025-07-26 16:38:43,982] WARNING: Element not found: ('id', 'identifierId')
+[2025-07-26 16:38:49,018] WARNING: Element not found: ('xpath', "//input[@type='email']")
+[2025-07-26 16:38:54,117] WARNING: Element not found: ('xpath', '//android.widget.EditText[1]')
+[2025-07-26 16:38:54,118] ERROR: Could not find email input field
+[2025-07-26 16:38:54,118] INFO: Closing Appium session...
+[2025-07-26 16:38:54,690] INFO: No Appium server process to stop

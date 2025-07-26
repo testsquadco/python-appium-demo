@@ -1,0 +1,31 @@
+{
+  "credentials": {
+    "email": "eliyahasan@gmail.com",
+    "password": "Demo1234"
+  },
+  "delays": {
+    "min_wait": 1.2,
+    "max_wait": 3.5,
+    "element_timeout": 10,
+    "app_launch_wait": 5
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "[%(asctime)s] %(levelname)s: %(message)s"
+  },
+  "device": {
+    "platform_name": "Android",
+    "platform_version": "12",
+    "device_name": "emulator-5554",
+    "automation_name": "UiAutomator2",
+    "udid": "emulator-5554",
+    "app_package": "com.google.android.gm",
+    "app_activity": "com.google.android.gm.ConversationListActivityGmail",
+    "no_reset": true,
+    "full_reset": false
+  },
+  "appium_server": {
+    "host": "localhost",
+    "port": 4723
+  }
+}

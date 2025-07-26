@@ -1,0 +1,5 @@
+[2025-07-26 16:33:27,166] INFO: === Starting Gmail Automation ===
+[2025-07-26 16:33:27,347] INFO: Appium server is running on localhost:4723 (detected via http://localhost:4723/status)
+[2025-07-26 16:33:27,347] INFO: Connecting to Android device...
+[2025-07-26 16:33:27,347] ERROR: Failed to connect to device: 'NoneType' object has no attribute 'to_capabilities'
+[2025-07-26 16:33:27,347] INFO: No Appium server process to stop

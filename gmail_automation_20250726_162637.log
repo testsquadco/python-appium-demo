@@ -1,0 +1,17 @@
+[2025-07-26 16:26:37,023] INFO: === Starting Gmail Automation ===
+[2025-07-26 16:26:37,035] INFO: Appium server is not running on localhost:4723
+[2025-07-26 16:26:37,035] INFO: Starting Appium server on localhost:4723...
+[2025-07-26 16:26:37,043] INFO: Appium server is not running on localhost:4723
+[2025-07-26 16:26:39,067] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:41,084] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:43,094] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:45,109] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:47,122] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:49,142] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:51,160] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:53,175] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:55,197] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:57,217] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:26:59,238] INFO: Appium server not responding properly on localhost:4723
+[2025-07-26 16:27:00,166] INFO: Stopping Appium server...
+[2025-07-26 16:27:00,247] INFO: Appium server stopped successfully
